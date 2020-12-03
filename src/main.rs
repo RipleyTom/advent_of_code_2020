@@ -1,6 +1,6 @@
-mod aoc_02;
+mod aoc_03;
 
 fn main() {
-    println!("Result of part A: {:?}", aoc_02::run_a());
-    println!("Result of part B: {:?}", aoc_02::run_b());
+    println!("Result of part A: {:?}", aoc_03::run_a());
+    println!("Result of part B: {:?}", aoc_03::run_b());
 }
