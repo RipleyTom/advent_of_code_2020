@@ -1,7 +1,7 @@
-mod aoc_06;
+mod aoc_07;
 
 fn main() {
-    let input = aoc_06::parse_input().unwrap();
-    println!("Result of part A: {:?}", aoc_06::run_a(&input));
-    println!("Result of part B: {:?}", aoc_06::run_b(&input));
+    let input = aoc_07::parse_input().unwrap();
+    println!("Result of part A: {:?}", aoc_07::run_a(&input));
+    println!("Result of part B: {:?}", aoc_07::run_b(&input));
 }
