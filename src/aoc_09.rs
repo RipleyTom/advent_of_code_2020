@@ -69,7 +69,7 @@ pub fn run_b(input: &Vec<i64>, to_find: i64) -> Result<i64, std::io::Error> {
 }
 
 #[test]
-fn test_aoc08() {
+fn test_aoc09() {
 	let sample_input =
 		"35\n20\n15\n25\n47\n40\n62\n55\n65\n95\n102\n117\n150\n182\n127\n219\n299\n277\n309\n576";
 	let sample_res = parse_data(&sample_input).unwrap();
