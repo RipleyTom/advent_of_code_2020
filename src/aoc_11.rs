@@ -223,7 +223,6 @@ pub fn run_b(input: &SeatMap) -> Result<i64, std::io::Error> {
 
 #[test]
 fn test_aoc11() {
-	println!("Hmmm");
 	let sample_input = "L.LL.LL.LL\nLLLLLLL.LL\nL.L.L..L..\nLLLL.LL.LL\nL.LL.LL.LL\nL.LLLLL.LL\n..L.L.....\nLLLLLLLLLL\nL.LLLLLL.L\nL.LLLLL.LL";
 	let sample_res = parse_data(&sample_input).unwrap();
 
